@@ -1,0 +1,58 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$blue: #327AB7;
+
+body {
+  font-family: sans-serif;
+}
+
+.comment {
+  border-left: 4px solid #DDDDDD;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  p {
+    padding: 8px 12px;
+    margin: 0px;
+  }
+}
+
+.highlighted {
+  background-color: #FEFBE1;
+
+  .message {
+    font-weight: bold;
+  }
+}
+
+// .highlighted .message {
+//   font-weight: bold;
+// }
+
+.who {
+  font-style: italic;
+}
+
+input {
+  font-size: 16px;
+  padding: 8px;
+  margin: 0;
+  outline-width: 0;
+}
+
+.question {
+  border-radius: 4px 0px 0px 4px;
+  border: solid 1px #DDDDDD;
+  width: 320px;
+  float: left;
+}
+
+.submit {
+  border-radius: 0px 4px 4px 0px;
+  border: solid 1px $blue;
+  background-color: $blue;
+  color: white;
+  font-weight: bold;
+}
